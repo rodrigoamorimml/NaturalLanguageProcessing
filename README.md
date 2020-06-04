@@ -1,6 +1,7 @@
+## Natural Language Processing Projects
 ---
 
-### In this repository i'll be describing and explaining a few **Natural Language Processing Projects** like:
+#### In this repository i'll be describing and explaining a few **Natural Language Processing Projects** like:
 
 
 
