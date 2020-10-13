@@ -25,3 +25,23 @@ For this example it's used the Bag of Words representation of text, this represe
   - TF-IDF (Term Frequency - Inverse Document Frequency)
   - Frequency
   - Binary
+
+Besides this, is shown the pre processing step, where we clean the data and tokenize the data (split the raw text into words and apply some integer values to them. ), this technique are widely used to get better model results.
+
+
+
+
+
+
+**For the Second Example**, we'll be using the the kaggle datasets Jig-Saw Toxic Comment for classification task  where can be found at: [Toxic Comment Dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge).
+
+
+This dataset contains differents types of toxic comments and the task it's to classify this comments in six possibles categories. Since a single comment can be placed in more than one category, then it'll be used 6 binary classification to complete this task. 
+
+In addition it will be used different types of architeture of neural networks to compare their performance and accuracy in this dataset, like a  ConvNet and a Reccurent Neural Network.
+Besides that, for the pre processing stage it will be used a Pre-trained Word Embedding Vector that can be download at: [Glove Embedding Vector](http://nlp.stanford.edu/data/glove.6B.zip)
+
+**In the third example**, it's also used a kaggle dataset, the spam detection dataset, the dataset can be found at: [Spam Detection](https://www.kaggle.com/uciml/sms-spam-collection-dataset).
+
+This dataset is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam. For this classification task it's used 2 types of neural network architectures, one Conv Net model and one RNN model, and using the same pre process step and the same optmizer and loss function, we compare the two models to see which one performs better.
+
