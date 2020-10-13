@@ -6,8 +6,10 @@
 
 
 - [ ] Sentimental Analysis using different tecniques of representation of text (Bag of Words, Word Embedding)
-- [ ] Sentimental Analysis using some machine learning algorithms.
-- [ ] Sentimental Analysis using deep learning   
+- [ ] Sentimental Analysis using some Deep learning architectures.
+- [ ] Spam Detection Algorithm.
+- [ ] An Auto Correct System.
+- [ ] An Auto Complete System using N-Gram Language Model.
 
 
 
@@ -17,3 +19,9 @@ IMDB website in the early 2000s by Bo Pang and Lillian Lee. The dataset is compr
 This dataset can be download at:  [Moview Review Dataset Polarity](http://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz)
 
 After unzipping the file, you will have a directory called txt sentoken with two subdirectories containing the text neg and pos for negative and positive reviews. Reviews are stored one per file with a naming convention from cv000 to cv999 for each of neg and pos.
+
+For this example it's used the Bag of Words representation of text, this representation describes the occurence of a word within a document. This technique is built using two steps, first we need a vocabulary of known words (where this vocab can be using unique words or unique n-grams) and the second step is the measure of the presence of this words, where can be by:
+  - Count
+  - TF-IDF (Term Frequency - Inverse Document Frequency)
+  - Frequency
+  - Binary
