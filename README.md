@@ -32,7 +32,7 @@ Besides this, is shown the pre processing step, where we clean the data and toke
 
 #### - *Sentimental Analysis using some Deep learning architectures.*
 
-we'll be using the the kaggle datasets Jig-Saw Toxic Comment for classification task  where can be found at: [Toxic Comment Dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge).
+This second example, we'll be using the the kaggle datasets Jig-Saw Toxic Comment for classification task  where can be found at: [Toxic Comment Dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge).
 
 
 This dataset contains differents types of toxic comments and the task it's to classify this comments in six possibles categories. Since a single comment can be placed in more than one category, then it'll be used 6 binary classification to complete this task. 
@@ -42,15 +42,15 @@ Besides that, for the pre processing stage it will be used a Pre-trained Word Em
 
 #### - *Spam Detection Algorithm.*
 
-, it's also used a kaggle dataset, the spam detection dataset, the dataset can be found at: [Spam Detection](https://www.kaggle.com/uciml/sms-spam-collection-dataset).
+In the third example, it's also used a kaggle dataset, the spam detection dataset, the dataset can be found at: [Spam Detection](https://www.kaggle.com/uciml/sms-spam-collection-dataset).
 
 This dataset is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam. For this classification task it's used 2 types of neural network architectures, one Conv Net model and one RNN model, and using the same pre process step and the same optmizer and loss function, we compare the two models to see which one performs better.
 
-## - *An Auto Correct System.*
+#### - *An Auto Correct System.*
 
 The forth project, We built from scratch an Auto Correct System, basically an auto correct system is an application that changes mispelled words into correct ones, as an example, is the phone spell corrector, where suggest options to correct a given word that the system thinks its mispelled. The application is divided is four parts, where we go through every part to explain and create a function that apply this step.
 
-## - *An Auto Complete System.*
+#### - *An Auto Complete System.*
 
 The fifth example uses the same principle of the example above, we built from scrach an auto complete system, this system can be used is some task, like:
   - Web Searchs, when you looking for something, the model often have suggestion to help complete your search.
